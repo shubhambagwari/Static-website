@@ -1,0 +1,52 @@
+/***********body************/
+body{
+	background-image: url("../images/main.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	}
+	
+/**********link*************/
+a:link {
+	color:#660000;
+    background-color: #ffcc66;
+	}
+a:visited {
+	color:#660000;
+    background-color: #ffcc66;
+	}
+a:hover {
+	color:#660000;
+    background-color: #ff9999;
+	}
+a:active {
+	color:#660000;
+    background-color: #ffcc66;
+	}  
+	
+/*************paragraph*************/
+p{
+	text-style: Calibri;
+	}
+
+/**********div************/
+div{
+	color:green;
+	border:double;
+	}
+	
+/**********span**********/
+span{
+	border:2px;
+	display:block;
+}
+
+/*******float*******/
+	img{
+		float:left;
+		padding:10px;
+		
+	}
+	IMG.HOVER{
+		OPACITY:0.3;
+	}
+	
