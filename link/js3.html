@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> js3 </title>
+</head>
+<body>
+	<h1>Country-Captial </h1>
+	Country:
+	<select id="country" >
+		<option value="India">India</option>
+		<option value="Bangladesh">Bangladesh</option>
+		<option value="USA">USA</option>
+	</select>
+	<br><br>
+	Capital:
+	<select id="capital">
+		<option value="Delhi">Delhi</option>
+		<option value="Dhaka">Dhaka</option>
+		<option value="Washingaton">Washingaton</option>
+	</select>
+	<br><br>
+	<button type="button" onclick="fun()">Check</button>
+	<p id="result"></p>
+	<script>
+	function fun()
+	{
+		var x=country.selectedIndex;
+		var y=capital.selectedIndex;
+		if(x==y)
+		document.getElementById("result").innerHTML="Correct Answer";
+		else
+		document.getElementById("result").innerHTML="OOPS! Inorrect Answer"+'<br>'+"Country: "+country.options[x].value+'<br>'+"Capital: "+capital.options[x].value;
+	}
+	</script>
+	</body>
+
+</html>		

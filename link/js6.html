@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>js 6</title>
+</head>
+<style>
+.show {
+border:2px solid grey;
+border-radius:10px;
+padding:20px;
+margin:0 350px;
+}
+</style>
+<script>
+function check()
+{
+var date=document.myform.DOB.value;
+if(date=="")
+alert("Please enter your DOB");
+else
+{
+var day=date.substr(0,2);
+var month=parseInt(date.substr(3,5))-1;
+var year=date.substr(6,10);
+var myday=(new Date(year,month,day)).getDay();
+switch(myday)
+{
+	case 0:
+	document.write("Sunday");
+	break;
+	case 1:
+	document.write("Monday");
+	break;
+	case 2:
+	document.write("Tuesday");
+	break;
+	case 3:
+	document.write("Wednesday");
+	break;
+	case 4:
+	document.write("Thursday");
+	break;
+	case 5:
+	document.write("Friday");
+	break;
+	case 6:
+	document.write("Saturday");
+	break;
+}
+}
+}
+</script>
+</head>
+<body>
+<br><br><br><br>
+<div class="show">
+
+<form name="myform">
+
+<center>
+<h2><b><u>Enter your Date Of Birth</u></b></h2>
+<input type="text" name="DOB" placeholder=dd-mm-yyyy><br/><br/>
+<input type="button" value="check" onclick="check()">
+</center>
+
+</div>
+</body>
+</html>

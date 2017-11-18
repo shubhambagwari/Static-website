@@ -1,0 +1,13 @@
+</doctype html>
+<html>
+<head>
+<title>HTML 7</title>
+
+<body>
+<iframe src="kedarnath.html" width="600" height="1100"></iframe>
+<iframe src="badrinath.html" width="700" height="1200">
+</iframe>
+</body>
+</head>
+
+</html>

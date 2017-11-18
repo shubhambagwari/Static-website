@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+<title>js 8</title>
+<style>
+img{
+	border:2px ;
+	padding:10px;
+}
+</style>
+<script>
+function inver()
+{
+document.getElementById("ian").style.filter="invert(100%)";
+}
+function normal()
+{
+document.getElementById("ian").style.filter="invert(0%)";
+}
+</script>
+</head>
+<body>
+<h1>invert color</h1>
+<img src="../images/js1.jpg" id="ian" onmouseover="inver()" onmouseout="normal()">
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<title>js 7</title>
+<style>
+.show {
+border:2px solid grey;
+border-radius:10px;
+padding:20px;
+margin:0 350px;
+}
+</style>
+</head>
+
+<body>
+<br><br><br><br>
+<div class="show">
+<form name="myform" autocomplete="on">
+<center>
+<h3>Enter Phone number</h3>
+<input type="text" id="phone" onblur="validate()">
+<span id="show" style="color:red;"></span>
+<br/><br/>
+<input type="button" value="click here" onclick="check()"><br><br>
+Area Code: <span id="abc"></span><br><br>
+Phone number: <span id="last"></span>
+</div>
+<script>
+function validate()
+{
+	var x = document.getElementById("phone").value;
+	if(x.length<10)
+	document.getElementById("show").innerHTML = "* Invalid Input";
+	else
+	document.getElementById("show").innerHTML = "";
+}
+
+function check()
+{	
+	var y = document.getElementById("phone").value;
+	if(y.length==10)
+	{
+		var f1 = y.substr(0,3);
+		document.getElementById("abc").innerHTML = f1;
+		var f1 = y.substr(3,10);
+		document.getElementById("last").innerHTML = f1;
+	}
+	else
+	{
+		document.getElementById("abc").innerHTML = "";
+		document.getElementById("last").innerHTML = "";	
+	}
+}
+</script>
+</center>
+</form>
+
+</body>
+</html>

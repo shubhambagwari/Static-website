@@ -1,0 +1,15 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+<title>HTML 2</title>
+</head>
+<body bgcolor="white">
+<pre>
+				*<br>
+			*	*	*<br>
+		*	*	*	*	*<br>
+	*	*	*	*	*	*	*	<br>
+	</pre>
+</BODY>
+</HTML>

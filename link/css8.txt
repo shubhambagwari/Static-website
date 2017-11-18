@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+
+<title> question 6 </title>
+
+	<style>
+                header
+                {
+                 text-align:center;
+                 font-size:60px;
+                 color:black;
+                }
+		body
+		{
+			background-image:url(walter1.jpg);
+			background-attachment: fixed;
+			background-size:80%;
+			background-repeat:no-repeat;
+		}
+	
+	</style>
+
+</head>
+<body>
+<header>
+<pre><b><u>Breaking Bad</u><b>
+</pre>
+</header>
+</font>
+
+<font color="bisque">
+<font color="black" size=27><b>INTRODUCTION</b></font>
+Breaking Bad is an American crime drama television series created and produced by Vince Gilligan. The show originally aired on the AMC network for five seasons, from January 20, 2008, to September 29, 2013. It tells the story of Walter White (Bryan Cranston), a struggling high school chemistry teacher diagnosed with inoperable lung cancer. Together with his former student Jesse Pinkman (Aaron Paul), White turns to a life of crime, producing and selling crystallized methamphetamine to secure his family's financial future before he dies, while navigating the dangers of the criminal world. The title is from a Southern colloquialism meaning to "raise hell". Breaking Bad is set and was filmed in Albuquerque, New Mexico.
+
+Walter's family consists of his wife Skyler (Anna Gunn) and children, Walter, Jr. (RJ Mitte) and Holly (Elanor Anne Wenrich). The show also features Skyler's sister Marie Schrader (Betsy Brandt), and her husband Hank (Dean Norris), a Drug Enforcement Administration (DEA) agent. Walter hires lawyer Saul Goodman (Bob Odenkirk), who connects him with private investigator and fixer Mike Ehrmantraut (Jonathan Banks) and in turn Mike's employer, drug kingpin Gus Fring (Giancarlo Esposito). The final season introduces the characters Todd Alquist (Jesse Plemons) and Lydia Rodarte-Quayle (Laura Fraser).
+
+Breaking Bad is widely regarded as one of the greatest television series of all time.[5] By the time the series finale aired, the series was among the most-watched cable shows on American television. The show received numerous awards, including sixteen Primetime Emmy Awards, eight Satellite Awards, two Golden Globe Awards, two Peabody Awards, two Critics' Choice Awards, and four Television Critics Association Awards. For his leading performance, Cranston won the Primetime Emmy Award for Outstanding Lead Actor in a Drama Series four times, while Aaron Paul won the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series three times; Anna Gunn won the Primetime Emmy Award for Outstanding Supporting Actress in a Drama Series twice. In 2013, Breaking Bad entered the Guinness World Records as the most critically acclaimed show of all time
+
+<font color="black" size=27><b>Conception</b></font>
+Breaking Bad was created by Vince Gilligan, who spent several years writing the Fox series The X-Files. Gilligan wanted to create a series in which the protagonist became the antagonist. "Television is historically good at keeping its characters in a self-imposed stasis so that shows can go on for years or even decades," he said. "When I realized this, the logical next step was to think, how can I do a show in which the fundamental drive is toward change?"[6] He added that his goal with Walter White was to turn him from Mr. Chips into Scarface.[7][8][9]
+<font color="black" size=27><b>Casting</b></font>
+Breaking Bad creator Vince Gilligan cast Bryan Cranston for the role of Walter White based on having worked with him in an episode of the science fiction television series The X-Files, on which Gilligan worked as a writer. Cranston played an anti-Semite with a terminal illness who took series co-protagonist Fox Mulder (David Duchovny) hostage. Gilligan said the character had to be simultaneously loathsome and sympathetic, and that "Bryan alone was the only actor who could do that, who could pull off that trick. And it is a trick. I have no idea how he does it."[13][25] AMC officials, who were initially reluctant with the casting choice, having known Cranston only as the over-the-top character Hal on the comedy series Malcolm in the Middle, approached actors John Cusack and Matthew Broderick about the role.[26] When both actors declined, the executives were persuaded to cast Cranston after seeing his X-Files episode.[27]
+
+Cranston contributed significantly to the formation and development of the Walter White persona. When Gilligan left much of Walter's past unexplained during the development of the series, the actor wrote his own backstory for the character.[13] At the start of the show, Cranston gained 10 pounds to reflect the character's personal decline and had the natural red highlights of his hair dyed a regular brown. He collaborated with costume designer Kathleen Detoro on a wardrobe of mostly neutral green and brown colors to make the character bland and unremarkable, and worked with makeup artist Frieda Valenzuela to create a mustache he described as "impotent" and like a "dead caterpillar."[28] Cranston repeatedly identified elements within certain scripts where he disagreed with how the character was handled,[29] and went so far as to call Gilligan directly when he could not work out disagreements with the episode's screenwriters. Cranston has said he was inspired partially by his elderly father for how Walter carries himself physically, which he described as "a little hunched over, never erect, [as if] the weight of the world is on this man's shoulders." In contrast to his character, Cranston has been described as extremely playful on set, with Aaron Paul describing him as "a kid trapped in a man's body."[13]
+
+Gilligan originally intended for Aaron Paul's character, Jesse Pinkman, to be killed at the end of Breaking Bad's first season in a botched drug deal as a plot device to plague Walter White with guilt. However, Gilligan said by the second episode of the season, he was so impressed with Paul's performance that "it became pretty clear early on that would be a huge, colossal mistake, to kill off Jesse."[30]
+
+"[Because] Walter White was talking to his students, I was able to dumb down certain moments of description and dialogue in the early episodes which held me until we had some help from some honest-to-God chemists," says Gilligan. According to Gilligan, Nelson "vets our scripts to make sure our chemistry dialogue is accurate and up to date. We also have a chemist with the Drug Enforcement Administration based out of Dallas who has just been hugely helpful to us."[32] Nelson spoke of Gilligan's interest in having the science right: "[He] said it made a difference to him."[33]
+
+In 2013, two scenes from the first season of Breaking Bad were put under scrutiny in a Mythbusters Breaking Bad Special. Despite several modifications to what was seen in the show, both the scenes depicted in the show were shown to be physically impossible.[34]
+
+Jason Wallach of Vice magazine commended the accuracy of the cooking methods presented in the series. In early episodes, a once common clandestine route, the Nagai red phosphorus/iodine method, is depicted, which uses pseudoephedrine as a precursor to d-(+)-methamphetamine.[35] By the season 1 finale, Walt chooses to use a different synthetic route based on the difficulty of acquiring enough pseudoephedrine to produce on the larger scale required. The new method Walt chooses is a reductive amination reaction, relying on phenyl-2-propanone and methylamine. On the show, the phenyl-2-propanone (otherwise known as phenylacetone or P2P) is produced from phenylacetic acid and acetic acid using a tube furnace and thorium dioxide (ThO2) as a catalyst, as mentioned in episodes "A No Rough-Stuff-Type Deal" and "Más." P2P and methylamine form an imine intermediate; reduction of this P2P-methylamine imine intermediate is performed using mercury aluminium amalgam, as shown in several episodes including "Hazard Pay,"[36]
+
+One of the important plot points in the series is that the crystal meth Walter "cooks" has very long crystals, is very pure, and (despite its purity) has a strong cyan blue color. Truly ultra-pure crystal meth would tend to be clear or white.[37] Nonetheless, it is noted during the show that some competing meth producers were dyeing their product blue in order to trick their customers into thinking they were buying Walt's highly potent product.
+
+In their article "Die Chemie bei Breaking Bad" on Chemie in unserer Zeit (translated into English on ChemistryViews as "The Chemistry of 'Breaking Bad'"), Tunga Salthammer and Falk Harnish discuss the plausibility of the chemistry portrayed in certain scenes. According to the two, chemistry is clearly depicted as a manufacturing science without much explanation of analytical methods being provided. On the other hand, serious scientific subjects are mixed into the dialog in order to show a world where chemistry plays a key role.[37]
+</font>
+</body>
+
+
+</html>

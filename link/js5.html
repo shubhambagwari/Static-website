@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> js5 </title>
+</head>
+<body onload="myfunc()">
+	
+	<div style="display: none">
+		<img src="../images/js1.png" class="xyz">
+		<img src="../images/js2.png" class="xyz">
+		<img src="../images/js3.png" class="xyz">
+		<img src="../images/js4.png" class="xyz">
+	</div>
+	<img id="demo" >
+	<script>
+	 function myfunc()
+	 {
+		var x=document.getElementsByClassName("xyz");
+		var c=0;
+		setInterval(my,1000);
+		function my(){
+				c++;
+				if(c%3==0)
+				document.getElementById("demo").src=x[0].src;
+				else if(c%3==1)
+				document.getElementById("demo").src=x[1].src;
+				else
+				document.getElementById("demo").src=x[2].src;
+		
+		}
+	}
+	</script>
+</body>
+</html>
+	

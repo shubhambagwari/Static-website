@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> js2 </title>
+</head>
+<body>
+	<form>
+		Email: &nbsp &nbsp &nbsp
+		<input type="email" id="mail" value="">
+		<br>
+		<br>
+		Password:
+		<input type="password" id="passwordrd" value="">
+		<br>
+		<br>
+		<button type="button" onclick="fun()">Submit</button>
+	</form>
+<script>
+	function fun()
+{
+	var a=document.getElementById("mail").value;
+	var b=document.getElementById("password").value;
+	
+	if(a.indexOf("@")<1 || (a.length-a.lastIndexOf("."))<=2 || (a.lastIndexOf(".")-a.indexOf("@"))<2)
+	alert("Invalid Email-id ");
+	
+	else if(b.length<7)
+	alert("Invalid password");
+}
+</script>
+	
+</body>
+</html>

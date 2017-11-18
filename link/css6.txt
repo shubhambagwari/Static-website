@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<title>CSS 6</title>
+<style>
+body
+	{
+	background-image: url("../images/term4_a.png");
+	background-attachment: fixed;
+	background-size:cover;
+}
+</style>
+</head>
+<body>
+<p>background is fixed</p>
+
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+<p>background is fixed</p>
+</body>
+
+
+</html>

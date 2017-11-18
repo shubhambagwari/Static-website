@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>HTML 10 </title>
+</head>
+<body>
+	<article>
+		<header>                                     
+			<center>
+				<h1>HTML TERMWORK</h1>
+				<h3><u>Use of various HTML tags</u></h3>
+			</center>
+			<hr>
+		</header>
+		
+		
+	</article>
+	<nav style="text-align: center">
+		<a href="">Home</a> |
+		<a href="">Register</a> |
+		<a href="">Help</a> |
+		<a href="">Ahout Us</a>
+	</nav>
+	<div style=" margin-left: 50px; float: left; display: inline">
+	
+		
+		<h1>VIDEO</h1>                                 
+		<video height="140px" width="250px" controls>
+			<source src="../images/sample.mp4">
+		</video>
+		
+		
+		<h1>AUDIO</h1>
+		<audio height="250px" width="250px" controls>
+			<source src="../images/song.mp3">
+		</audio><br>
+		
+		
+		<h1>EMBED</h1>
+		<embed src="../images/song.mp3" height="50px" width="200px">
+	</div>
+	
+	
+	<div style="margin-right: 50px; float: right; display: inline">
+		<h1>Rating(Out of 5)</h1>
+		<form action="">
+			<input list="grade" name="grade">
+				<datalist id="grade">
+					<option value="5">
+					<option value="4">
+					<option value="3">
+					<option value="2">
+					<option value="1">
+				</datalist>
+			<input type="submit">
+		</form>
+	</div>
+	
+	
+	<footer style="clear: both">
+		<hr>
+		<center>
+			<address>Clement Town,Dehradun</address>
+			<b>Contact No.:<b>8477022927
+		</center>
+	</footer>

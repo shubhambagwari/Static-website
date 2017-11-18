@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>HTML 6</title>
+	<style>
+		h1{
+			margin-top:2px;
+			text-align:center;
+			background-color:white;
+			padding:5px;
+		}
+		div#outer{
+			border:1px solid black;
+			width:1010px;
+			margin-left:150px;
+		}
+		nav{
+			border:1px solid black;
+			margin-top:0px;
+			width:250px;
+			height:250px;
+			float:left;
+			line-spacing:5px;
+		}
+		section{
+			float:left;
+		}
+		nav#one{ 
+			float:left;
+			width:250px;
+			height:250px;
+		}
+		footer{
+			clear:both;
+			text-align:center;
+			word-spacing:2px;
+			padding:5px;
+		}
+		a:link{
+			color:#00FF00;
+		}
+		a:visited{
+			color:#0000FF;
+		}
+		a:hover{
+			font-size:120%
+		}
+		a:active{
+			color:red;
+		}
+</style>
+</head>
+ <body>
+	<div id="outer">
+		<header>
+			<h1>Shubham Bagwari</h1>
+			<q>No one is perfect in this world, keep learning:) </q>
+		</header>
+		<nav>
+			<ul type="none">
+				<li><a href=" google.com" target="iframe_a" >Objective</a></li>
+				<li><a href="facebook.com" target="iframe_a"  > Personal Information</a></li>
+				<li><a href="facebook.com" target="iframe_a" >Family Information</a></li>
+				<li><a href="courseera.com" target="iframe_a" >Educational Information</a></li>
+				<li><a href="gehu.ac.in"target="iframe_a" >Experience</a></li>
+				<li><a href="kvs.com" target="iframe_a" >Achievements</a></li>
+				<li><a href="pagecluster.com" target="iframe_a" >Others</a></li>
+			</ul>	
+		</nav>
+		<section>
+			<iframe  width="494px" height="250px"  name="iframe_a" style="border:1px solid black"></iframe><!-- Use of iframe-->
+		</section>
+		<nav id="one">
+			<img src="" width="250px" height="250px">
+		</nav>
+		<footer>
+			<b> Contact: </b> Phone No:8477022927&nbsp &nbsp<b>Email:</b>shubhambagwari98@gmail.com
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css5 </title>
+<style>
+div{
+	background-color:green;
+	height:200px;
+	width:200px;
+	padding: 150 px;	
+	margin:100px;
+	transition-duration: 2s;
+	transition-delay:1s;
+}
+div:hover{
+	width:300px;
+	}
+
+</style>
+</head>
+
+<body >
+<h3 align="center">Transition</h3>
+<div >
+<p>take your cursor over it to  see magic:D</p>
+</div>                                                                           
+</body >
+
+</html>

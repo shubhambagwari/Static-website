@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<style>
+li{
+	list-style-type:none; 
+	max-width:150px;
+	margin:none;
+	border:none ;
+	background-color:grey;
+	color:black;
+	}
+li:hover{
+	background-color:white;
+		color:yellow;
+	}
+ </style>
+ <body >
+ <h1> Working with vertical menu</h1> 
+<menu>
+	
+	 <li>home</li>
+	<li>html</li>
+	<li>css</li>
+	<li>java script</li>
+	<li>php</li>
+	<li>SQL</li>
+	</menu>
+ </body>
+ </html>

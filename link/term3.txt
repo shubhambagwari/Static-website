@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> HTML 3 </title>
+</head>
+<body>
+	<table border="2">
+		<tr>
+			<th rowspan="2">Sr.No</th>
+			<th rowspan="2">Course</th>
+			<th rowspan="2">Subject</th>
+			<th colspan="2" align="center">Marks</th>
+			<th colspan="2" align="center">Category</th>
+			<th rowspan="2">Practical/Theory</th>
+		</tr>
+		<tr>
+			<th>Internal</th>
+			<th>External</th>
+			<th>Internal</th>
+			<th>External</th>
+		</tr>
+		<tr>
+			<td rowspan="4">1</td>
+			<td rowspan="4">MBA</td>
+			<td>Management Accounting</td>
+			<td>30</td>
+			<td>70</td>
+			<td>-</td>
+			<td>&#10004</td>
+			<td>Theory</td>
+		</tr>
+		<tr>
+			<td>Information Technology</td>
+			<td>30</td>
+			<td>70</td>
+			<td>-</td>
+			<td>&#10004</td>
+			<td>T and P</td>
+		</tr>
+		<tr>
+			<td>Basics of Marketing</td>
+			<td>30</td>
+			<td>70</td>
+			<td>-</td>
+			<td>&#10004</td>
+			<td>Theory</td>
+		</tr>
+		<tr>
+			<td>E-Commerce</td>
+			<td>30</td>
+			<td>70</td>
+			<td>&#10004</td>
+			<td>-</td>
+			<td>Theory</td>
+		</tr>
+</table>
+</body>
+</head>
+	

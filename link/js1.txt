@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> java script 1</title>
+</head>
+
+<style>
+.show {
+border:2px solid green;
+border-radius:60px;
+padding:20px;
+margin:0 350px;
+}
+</style>
+
+<body>
+<center><h2><u>CREDIT CARD VALIDATION</u></h2>
+<br>	
+<div class="show">
+	MasterCard: 
+	<input type="text" value="" id="mast" onblur="Master_valid()">
+	<span id="error1" style="color:red"></span>
+	<br><br>
+	
+	Visa: &nbsp &nbsp &nbsp &nbsp &nbsp 
+	<input type="text" value="" id="visa" onblur="Visa_valid()">
+	<span id="error2" style="color:red"></span>
+	<br><br>
+	American Express:
+	<input type="text" value="" id="exp" onblur="AmExp_valid()">
+	<span id="error3" style="color:red"></span>
+	<br><br>
+	</div>
+	</CENTER>
+	<script>
+		function Master_valid()
+		{
+			var x=document.getElementById("mast").value;
+			var patt=/^(51|52|53|54|55)[0-9]/;
+			if(!patt.test(x) || x.length!=16)
+				document.getElementById("error1").innerHTML="Invalid Input";
+			else
+				document.getElementById("error1").innerHTML="valid ";
+		}
+		function Visa_valid()
+		{
+			var x=document.getElementById("visa").value;
+			var patt=/^4[0-9]/;
+			if(!patt.test(x) || (x.length!=12 && x.length!=15))
+				document.getElementById("error2").innerHTML="Invalid Input";
+			else
+				document.getElementById("error2").innerHTML="valid ";
+		}
+		function AmExp_valid()
+		{
+			var x=document.getElementById("exp").value;
+			var patt=/^(34|37)[0-9]/;
+			if(!patt.test(x) || x.length!=15)
+				document.getElementById("error3").innerHTML="Invalid Input";
+			else
+				document.getElementById("error3").innerHTML="valid ";
+		}
+	</script>
+</body>
+</html>

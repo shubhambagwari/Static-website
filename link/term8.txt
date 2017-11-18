@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My web page</title>
+</head>
+<body>
+	<form style="background-color: #00ccdd; padding: 10px">
+		<fieldset>
+			<legend>Basic Information</legend>
+			Full Name:
+			<input type="text"><br><br>
+			Birth date:
+			<input type="text"><br><br>
+			Gender:
+			<input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female<br><br>
+			Address:
+			<input type="address"><br><br>
+			Phone Number:
+			<input type="text"><br><br>
+		</fieldset>
+		<fieldset>
+			<legend>Extra Information</legend>
+			Interests:
+			<input type="checkbox" name="interest">Books
+			<input type="checkbox"name="interest">Movies
+			<input type="checkbox" name="interest">Videogames<br>
+			Favorite color:
+			<input type="color">
+		</fieldset><br>
+		<input type="Button" value="Send Data">
+		<input type="Reset" value="Reset form">
+	</form>
+</body>
+</html>
+	

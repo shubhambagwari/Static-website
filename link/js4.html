@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title> javascript 4 </title>
+	<style>
+		.abc
+		{
+			width:50px;
+			height:50px;
+			padding:5px;	
+			background-color: black;
+			color: white;
+		}
+		#in
+		{
+			width:210px;
+		}
+	</style>
+</head>
+<body>
+<center>
+<h2><u>Basic Calculator</u></h2>
+	<table id="tab">
+		<tr>
+			<td colspan=4> <input type="text" id="in" value=""> </td>
+		</tr>
+		<tr>
+			<td> <input type="button" value="1" onclick="func(0)" class="abc"> </td>
+			<td> <input type="button" value="2" onclick="func(1)" class="abc"> </td>
+			<td> <input type="button" value="3" onclick="func(2)" class="abc"> </td>
+			<td> <input type="button" value="+" onclick="func(3)" class="abc"> </td>
+		</tr>
+		<tr>
+			<td> <input type="button" value="4" onclick="func(4)" class="abc"> </td>
+			<td> <input type="button" value="5" onclick="func(5)" class="abc"> </td>
+			<td> <input type="button" value="6" onclick="func(6)" class="abc"> </td>
+			<td> <input type="button" value="-" onclick="func(7)" class="abc"> </td>
+		</tr>
+		<tr>
+			<td> <input type="button" value="7" onclick="func(8)" class="abc"> </td>
+			<td> <input type="button" value="8" onclick="func(9)" class="abc"> </td>
+			<td> <input type="button" value="9" onclick="func(10)" class="abc"> </td>
+			<td> <input type="button" value="*" onclick="func(11)" class="abc"> </td>
+		</tr>
+		<tr>
+			<td> <input type="button" value="C" onclick="func(12)" class="abc"> </td>
+			<td> <input type="button" value="0" onclick="func(13)" class="abc"> </td>
+			<td> <input type="button" value="=" onclick="func(14)" class="abc"> </td>
+			<td> <input type="button" value="/" onclick="func(15)" class="abc"> </td>
+		</tr>
+	</table>
+	</center>
+	
+	<script>
+		function func(index)
+		{
+			var x=document.getElementsByClassName("abc");
+			if(index == 12)
+			{
+				document.getElementById("in").value=" ";
+			}
+			else if(index == 14)
+			{
+				document.getElementById("in").value=eval(document.getElementById("in").value);
+			}
+			else
+			{
+				document.getElementById("in").value+=x[index].value;
+			}
+		}
+	</script>
+</body>
+</html>
+	
