@@ -1,2 +1,4 @@
 # static-website
-This website is totally basic which consist simple HTML and CSS in which consist 3 options in term-work where you will find sample questions with solutions. Where I cover HTML, CSS, Javascript related problems.
+This repository is having a simple website made from HTML and CSS.
+The Website consists of 3 options(HTML, CSS, Javascript) in term-work, where you will find questions with their solutions.
+
